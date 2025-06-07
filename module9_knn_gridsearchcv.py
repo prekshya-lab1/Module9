@@ -11,7 +11,7 @@ def read_input_pairs(n, prompt=""):
   return np.array(pairs)
 def main():
     N = int(input("Enter number of training samples (N): "))
-    train_data = read_input_pairs(M, prompt="Train - ")
+    train_data = read_input_pairs(N, prompt="Train - ")
     TrainX = train_data[:, 0].reshape (-1, 1)
     TrainY = train_data[:, 1]
     M = int(input("Enter number of test samples (M): "))
