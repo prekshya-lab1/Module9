@@ -6,7 +6,7 @@ def read_input_pairs(n, prompt=""):
   pairs = []
   for i in range(n):
     x = float(input(f"{prompt}Enter x for pair {i+1}: "))
-    y = int(input(f{prompt}Enter y for pair {i+1}: "))
+    y = int(input(f"{prompt}Enter y for pair {i+1}: "))
     pairs.append((x,y))
   return np.array(pairs)
 def main():
